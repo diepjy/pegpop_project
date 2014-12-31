@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pegpop</string>
+    
+    <string name="next">Next</string>
+    
+	<string name="username">Step 1: Username</string>
+	<string name="setUsername">Username</string>
+	<string name="publicBlogTitle">Public blog</string>
+	<string name="privateBlogTitle">Private blog</string>
+    
+    <string name="profilePicture">Step 2: Upload Profile Picture</string>
+    <string name="uploadPictureButton">Upload Picture</string>
+    
+    <string name="termsAndConditions">Please agree to the terms and conditions</string>
+    <string name="readTermsAndConditionsButton">Read</string>
+    <string name="agree">I agree</string>
+    <string name="disagree">I disagree</string>
+    
+	<string name="readTermsAndConditions">TODO Terms and Conditions</string>
+    
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_main_page_activity">My Message</string>
+    <string name="action_search">Search</string>
+    <string name="app_id">595817227193912</string>
+    <string name="description">Image</string>
+    <string name="helloWorld">Hello World</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+
+</resources>

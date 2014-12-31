@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" 
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/usernameSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/setUsername" />
+
+    <EditText
+        android:id="@+id/setUsernameEdit"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text" />
+
+    <TextView
+        android:id="@+id/publicBlogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/publicBlogTitle" />
+
+    <RadioButton
+        android:id="@+id/publicBlogRadioButton"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="95dp" />
+
+    <TextView
+        android:id="@+id/privateBlogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/privateBlogTitle" />
+
+    <RadioButton
+        android:id="@+id/privateBlogRadioButton"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="145dp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:theme="@android:style/Theme.NoTitleBar" >
+
+    <!-- Customisable top action bar -->
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textSize="18sp" 
+        android:layout_gravity="center"
+        android:paddingTop="7dp"/>
+
+    <ImageButton
+        android:id="@+id/action_starred"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description"
+        android:onClick="FakeMenu"
+        android:showAsAction="ifRoom"
+        android:src="@drawable/ic_action_search" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description"
+        android:onClick="SettingsMenu"
+        android:src="@drawable/ic_action_overflow" />
+
+</LinearLayout>

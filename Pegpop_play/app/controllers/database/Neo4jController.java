@@ -25,6 +25,16 @@ public class Neo4jController extends Controller {
         this.service = service;
     }
 
+    /*
+    * {"uid":"2",
+"firstname":"Bob",
+"lastname":"Smith",
+"username":"bobsmith",
+"profilePicture":"file1",
+"privacy":"0",
+"toc":"1"
+}
+    * */
     //Check is facebook id is in database
     public static Result getIsExistingUser(String id) {
         Logger.debug("in getIsExistingUser, id is " + id);
